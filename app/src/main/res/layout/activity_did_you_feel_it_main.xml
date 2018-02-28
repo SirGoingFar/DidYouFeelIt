@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.example.aolanrewaju.didyoufeelit.DidYouFeelItMainActivity">
+
+    <TextView
+        android:id="@+id/location_offset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="35KM NNW of South Sudan"
+        android:gravity="center"
+
+        android:textSize="@dimen/location_testsize"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+         android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERCEIVED STRENGTH"
+        style="@style/descStyle"
+        />
+
+    <TextView
+        android:id="@+id/cdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100sp"
+        tools:text="9.1"
+        android:gravity="center"
+        android:background="@drawable/bg_magnitude"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/feelItCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="1000 PEOPLE FELT IT"
+        style="@style/descStyle"/>
+
+</LinearLayout>
